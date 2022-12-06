@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fit Life | Calculo IMC</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./img/logo.png">
+</head>
+
+<body>
+    <!-- main container -->
+    <div class="container">
+        <!-- navbar -->
+        <nav class="nav-main">
+            <img src="./img/logo.png" alt="logo_Fit" class="nav-brand">
+            <p class="nav-text">FIT LIFE</p>
+            <ul class="nav-menu">
+                <li>
+                    <a href="./CalculoIMC.html">Calcular IMC</a>
+                </li>
+                <li>
+                    <a href="../Registro-de-IMC/RegistroIMC.html">Controles</a>
+                </li>
+                <li>
+                    <a href="../Ejercicios/ejercicios.html">Ejercicio</a>
+                </li>
+                <li>
+                    <a href="#">Dietas</a>
+                </li>
+                <li>
+                    <a href="../login/login.html">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Container Form -->
+    <div class="container-form">
+        <!-- form 'Calcular IMC' -->
+        <form action="" class="form-calculoIMC">
+            <!-- logo FIT LIFE -->
+            <div class="form-brand">
+                <img src="./img/logo.png" alt="logo_Fit"><br>
+            </div>
+
+            <div class="form-txt">
+                <h2>FIT LIFE</h2>
+                <p>Calcula tu índice de masa corporal</p>
+            </div>
+
+            <div class="data">
+                <!-- input to name  -->
+                <label for="form-input-name">Nombre*: </label><br>
+                <input type="text" name="form-input-name" id="form-input-name-id" placeholder="Ingresa tu nombre"
+                    required><br>
+                <!-- input to age -->
+                <label for="form-input-age">¿Cuál es tu edad?*</label><br>
+                <input type="number" name="form-input-age" id="form-input-age-id" placeholder="Ingresa tu Edad"
+                    required><br>
+                <!-- input to height -->
+                <label for="form-input-height">¿Cuál es tu altura?*</label><br>
+                <input type="number" name="form-input-height" id="form-input-height-id" placeholder="Ingresa tu altura"
+                    required><br>
+                <!-- input to weight -->
+                <label for="form-input-weight">¿Cuál es tu peso actual?*</label><br>
+                <input type="number" name="form-input-weight" id="form-input-weight-id" placeholder="Ingresa tu peso"
+                    required><br>
+                <!-- input to email -->
+                <label for="form-input-email">Correo Electrónico*</label><br>
+                <input type="email" name="form-input-email" id="form-input-email-id" placeholder="Ingresa tu E-mail"
+                    required><br>
+                <!-- input to verified email -->
+                <label for="form-input-email">Confirma tu Correo Electrónico*</label><br>
+                <input type="email" name="form-input-email-verified" id="form-input-email-verified-id"
+                    placeholder="Ingresa nuevamente tu E-mail" required><br>
+            </div>
+
+            <div class="form-button">
+                <!-- button to submit form 'Calcular IMC' -->
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

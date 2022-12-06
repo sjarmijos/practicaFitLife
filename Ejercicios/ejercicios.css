@@ -1,0 +1,23 @@
+p{
+    padding: 1rem;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+
+
+table{
+    margin: auto;
+}
+
+thead{
+    background: #c9e265;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}

@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fafafa;
+    font-size: 16px;
+    font-family: 'oswald', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    width: 10px;
+    height: 8px;
+    background-color: #c9e265;
+    color: #fafafa;
+    border-radius: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/*Navigation*/
+.nav-main {
+    font-size: 18px;
+    /*size*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav-brand {
+    width: 60px;
+    padding-top: 10px;
+}
+
+.nav-text {
+    font-weight: 100;
+    font-size: 20px;
+}
+
+/*Nav left*/
+.nav-main ul {
+    display: flex;
+}
+
+.nav-main ul li {
+    padding: 10px;
+}
+
+.nav-main ul li a {
+    padding: 10px;
+}
+
+.nav-main ul li a:hover {
+    box-shadow: 0px 4px 15px #58a61c;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 50%;
+}
+
+/*Form Calcular IMC*/
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.container-form form{
+    border-color: #c9e265;
+    border-width: 1px;
+    border-style: solid;
+    min-width: 600px;
+    padding: 30px;
+}
+
+/*brand or logo container*/
+.form-brand {
+    display: flex;
+    justify-content: center;
+}
+/*brand or logo image*/
+.form-brand img{
+    width: 90px;
+}
+
+/*Text form container*/
+.form-txt{
+    min-height: 100px;
+    background-color: #c9e265;
+    margin: 0 -30px 0 -30px;
+    text-align: center;
+    overflow: hidden;
+}
+/*Text form Header*/
+.form-txt h2{
+    padding-top: 25px;
+}
+
+/*Inputs container*/
+.data{
+    padding-top: 50px;
+}
+
+/*inputs position*/
+.data input,
+.data label {
+    margin: 5% auto 5% 5%;
+}
+
+/*inputs styles*/
+.data input {
+    border: 3px solid #c9e265;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 7px 12px;
+    font-size: 17px;
+    transition: all 1s;
+    min-width: 80%;
+}
+.data input:focus{
+    outline-color: #7faaaa;
+}
+
+
+/*Form button container*/
+.form-button{
+    display: flex;
+    justify-content: center;
+}
+
+/*Form button styles*/
+.container-form form button {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px #0000001a;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .container-form form button:hover {
+    background-color: #c9e265;
+    box-shadow: 0px 15px 20px #c9e26552;
+    transform: translateY(-7px);
+  }
+  
+  .container-form form button:active {
+    transform: translateY(-1px);
+  }
+
